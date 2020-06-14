@@ -1,0 +1,90 @@
+body {
+	margin: 20px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 70vh;
+	position: relative;
+}
+
+.container {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 500px;
+	height: 380px;
+}
+
+
+.table {
+	width: 300px;
+	height: 170px;
+	border-width: 12px;
+	border-style: solid;
+	border-color: #A98218;	
+	background-color: #8F6D10;
+	border-radius: 35px;
+	margin: 10px;
+	display: block;
+}
+
+.buttons {
+	margin-left: 800px;
+}
+
+.addChair, .removeChair {
+	width: 65px;
+	height: 65px;
+	padding: 0;
+	text-align: center;
+	color: white;
+	font-size: 55px;
+	font-family: sans-serif;
+	border: 0;
+	border-radius: 100%;
+	margin-top: 20px;
+	margin: 10px;
+	outline: none;
+}
+
+.addChair {
+	background-color: #12C400;
+}
+
+.removeChair {
+	background-color: #E51212;
+}
+
+.swal-modal {
+	border-color: #c40000;
+	width: 430px;
+	height: 230px;
+	padding: 3px;
+	border-radius: 25px;
+	align-items: center;
+	justify-content: center;
+}
+
+.swal-text:first-child {
+	font-family: 'Merriweather';
+	font-size: 35px;
+	text-align: center;	
+	margin-top: 25px;
+}
+
+.swal-footer {
+	margin-top: 0;
+	text-align: center;
+}
+
+.swal-button--confirm {
+	font-family: 'Merriweather';
+	text-align: center;
+	background: #c40000;
+	color: white;
+	margin-top: 0;
+}
