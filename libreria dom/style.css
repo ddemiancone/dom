@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+body {
+	background: url(backgroundbooks.png);
+	margin: 3px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+input {
+	border-radius: 3px;
+  background: white;
+  text-align: center;
+  color: black;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Merriweather';
+  padding: 8px;
+}
+
+.isbnButton, .authorButton {
+  width: 100px;
+  height: 50px;
+  background: white;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Merriweather';
+}
+
+.topTenButton, .booksButton {
+  width: 200px;
+  height: 65px;
+  background: white;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Merriweather';
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.booksText, .isbnText, .authorText, .topTenText {
+  text-align: center;
+  font-family: 'Merriweather';
+  font-size: 35px;
+  color: white; 
+  margin-bottom: 0;
+  margin-top: 35px;
+ 
+}
+
+.isbnText2, .authorText2, .booksText {
+  text-align: center;
+  font-family: 'Merriweather';
+  font-size: 15px;
+  color: #E4E4E4;
+  margin-top: 0;   
+}
+
+.swal-text {
+  font-family: 'Roboto Slab';
+  font-size: 25px;
+}
+
+.swal-title {
+  font-family: 'Roboto Slab';
+  font-size: 35px;
+  color: #393939;
+
+}
+
+.swal-button {
+  font-family: 'Roboto Slab';
+  text-align: center;
+  background: #222222;
+  color: white;
+}
+
